@@ -1,6 +1,6 @@
 Name:           perl-Text-Unidecode
 Version:        0.04
-Release:        20%{?dist}
+Release:        19%{?dist}
 Summary:        US-ASCII transliterations of Unicode text
 
 Group:          Development/Libraries
@@ -51,9 +51,6 @@ make test
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.04-20
-- Mass rebuild 2013-12-27
-
 * Fri Jul 12 2013 Jitka Plesnikova <jplesnik@redhat.com> - 0.04-18
 - Update dependencies
 - Use DESTDIR rather than PERL_INSTALL_ROOT
